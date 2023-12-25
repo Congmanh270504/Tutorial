@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Customer">
+      <UniqueIdentifier>{250abc4c-743d-416b-8abe-ad2bb80c98f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SV">
+      <UniqueIdentifier>{a6f8e8b6-7e53-4bf0-860e-774091ae1854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String">
+      <UniqueIdentifier>{5f20db9a-2a1a-4219-a107-e1595e752d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array">
+      <UniqueIdentifier>{91c7d68d-e4d1-4035-a7d5-df0135dc4340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MixedNumber">
+      <UniqueIdentifier>{913012df-a22d-4fad-831d-0a3f8899665f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\Array1D">
+      <UniqueIdentifier>{09e1270e-9da0-4c32-bad0-f097e82d8096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\Array2D">
+      <UniqueIdentifier>{251e8bd4-9a74-47a7-b8a1-b34113fd5db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\Array2D\Square">
+      <UniqueIdentifier>{3ae71c22-dd11-4e1a-949e-41971c00f170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array\Array2D\Nomal">
+      <UniqueIdentifier>{1d4fa00e-c2d4-4e36-8486-f469a5e53bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fraction">
+      <UniqueIdentifier>{3c2f8769-9249-4dda-b589-7f5ed4394025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Recursive">
+      <UniqueIdentifier>{5f71837f-a2b6-4dfc-a93f-40b0508548ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Customer\CustomerList.cpp">
+      <Filter>Source Files\Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer\mainCustomerList.cpp">
+      <Filter>Source Files\Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="SV\mainMang1Chieu_Sv.cpp">
+      <Filter>Source Files\SV</Filter>
+    </ClCompile>
+    <ClCompile Include="SV\Mang1Chieu_SV.cpp">
+      <Filter>Source Files\SV</Filter>
+    </ClCompile>
+    <ClCompile Include="String\mainString.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\String.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="MixedNumber\mainMixedArray.cpp">
+      <Filter>Source Files\MixedNumber</Filter>
+    </ClCompile>
+    <ClCompile Include="MixedNumber\MixedArray.cpp">
+      <Filter>Source Files\MixedNumber</Filter>
+    </ClCompile>
+    <ClCompile Include="Array-Buoi2\mainArray.cpp">
+      <Filter>Source Files\Array\Array1D</Filter>
+    </ClCompile>
+    <ClCompile Include="Array-Buoi2\Array.cpp">
+      <Filter>Source Files\Array\Array1D</Filter>
+    </ClCompile>
+    <ClCompile Include="Array2D\Nomal\Array2D.cpp">
+      <Filter>Source Files\Array\Array2D\Nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="Array2D\Nomal\mainArray2D.cpp">
+      <Filter>Source Files\Array\Array2D\Nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="Array2D\Square\SquareArray2D.cpp">
+      <Filter>Source Files\Array\Array2D\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Array2D\Square\mainSquareArray2D.cpp">
+      <Filter>Source Files\Array\Array2D\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Fraction\mainFraction.cpp">
+      <Filter>Source Files\Fraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Fraction\Fraction.cpp">
+      <Filter>Source Files\Fraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursive\Recursive.cpp">
+      <Filter>Source Files\Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursive\mainRecursive.cpp">
+      <Filter>Source Files\Recursive</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Customer\CustomerList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SV\Mang1Chieu_SV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="String\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array-Buoi2\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MixedNumber\MixedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array2D\Nomal\Array2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array2D\Square\SquareArray2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fraction\Fraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursive\Recursive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
